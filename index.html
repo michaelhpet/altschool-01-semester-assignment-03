@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WP Pusher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/logo.png" alt="" />
+      <nav>
+        <a href="#">Download</a>
+        <a href="#">Learn more</a>
+        <a href="#">Pricing</a>
+        <a href="#">Help</a>
+        <button class="button button_outlined">Account</button>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Checkout</h1>
+        <div class="hr"></div>
+        <form>
+          <fieldset>
+            <header>
+              <figure>1</figure>
+              <h3>Your Basic Information</h3>
+            </header>
+            <div>
+              <label for="first_name">First Name</label>
+              <input disabled type="text" id="first_name" value="Jane" />
+            </div>
+            <div>
+              <label for="last_name">Last Name</label>
+              <input disabled type="text" id="last_name" value="Doe" />
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input
+                disabled
+                type="text"
+                id="email"
+                value="janedoe@example.com"
+              />
+            </div>
+          </fieldset>
+          <div class="hr"></div>
+          <fieldset>
+            <header>
+              <figure>2</figure>
+              <h3>Your Payment Information</h3>
+            </header>
+            <div>
+              <label for="credit_card">Credit Card</label>
+              <legend id="credit_card">
+                <input
+                  disabled
+                  type="text"
+                  id="card_number"
+                  placeholder="Card Number"
+                />
+                <input
+                  disabled
+                  type="text"
+                  id="expiry_date"
+                  placeholder="MM/YY"
+                />
+                <input disabled type="text" id="cvc" placeholder="CVC" />
+              </legend>
+            </div>
+          </fieldset>
+          <div class="hr"></div>
+          <div class="button_wrapper">
+            <button class="button button_primary">Buy WP Pusher</button>
+          </div>
+        </form>
+        <footer>
+          <div>
+            <img src="icons/help-icon.svg" />
+            <p>
+              <b>Need any help?</b> Don&apos;t hesitate to&nbsp;<a href="#"
+                >contact support!</a
+              >
+            </p>
+          </div>
+          <img src="images/powered-by-stripe.svg" alt="Powered by Stripe" />
+        </footer>
+      </section>
+
+      <aside>
+        <article>
+          <p>Freelancer</p>
+          <p>
+            <span class="superscript">$</span>&nbsp;99&nbsp;<span
+              class="subscript"
+              >/ year</span
+            >
+          </p>
+          <p>Automatically renews after 1 year</p>
+        </article>
+
+        <ul>
+          <li>
+            <img src="/icons/check.svg" />
+            <p>Use on <b>5</b> client sites</p>
+          </li>
+          <li>
+            <img src="/icons/check.svg" />
+            <p>Private repositories</p>
+          </li>
+          <li>
+            <img src="/icons/check.svg" />
+            <p>Email support</p>
+          </li>
+        </ul>
+
+        <p>
+          Need 20 client sites?<br /><a href="#">Switch to the Agency plan</a>.
+        </p>
+
+        <div class="hr"></div>
+
+        <p>
+          FTP is horrible to deal with. WP Pusher solves that issue, and the
+          customer support is awesome!
+        </p>
+
+        <div>
+          <img src="/images/avatar.png" alt="Kirk Beard" />
+          <p>Kirk Beard</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      &copy; 2018 WP Pusher IVS &bull; <a href="#">Terms of Service</a>
+    </footer>
+  </body>
+</html>
